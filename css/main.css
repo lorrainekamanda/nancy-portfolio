@@ -43,7 +43,7 @@
 
 }
 
-/* The sidepanel links */
+
 .sidepanel a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
@@ -51,14 +51,17 @@
   color: #818181;
   display: block;
   transition: 0.3s;
+  
 }
 
-/* When you mouse over the navigation links, change their color */
+
 .sidepanel a:hover {
-  color: #f1f1f1;
+  color: black;
+  text-decoration: none;
+  
 }
 
-/* Position and style the close button (top right corner) */
+
 .sidepanel .closebtn {
   position: absolute;
   top: 0;
@@ -67,7 +70,7 @@
   margin-left: 50px;
 }
 
-/* Style the button that is used to open the sidepanel */
+
 .openbtn {
   font-size: 20px;
   cursor: pointer;
@@ -87,14 +90,10 @@ a{
 }
 #mySidepanel{
   font-size: 15px;
+  font-family: 'Karnivore Seven';
 }
 
-/* #image{
-  left: 50%;
-  top: 50%;
-  bottom: 50%;
-  right: 50%;
-} */
+
 
 .image{
 position: absolute;
@@ -645,7 +644,7 @@ position: absolute;
 width: 709px;
 height: 672px;
 left: 123px;
-top: 178px;
+top: 200px;
 background: #C4C4C4;
 padding-right: 30PX;
 }
@@ -711,7 +710,7 @@ position: absolute;
 width: 1195px;
 height: 672px;
 left: 123px;
-top: 178px;
+top: 228px;
 
 background: #C4C4C4;
 }
@@ -720,7 +719,7 @@ background: #C4C4C4;
   width: 174px;
   height: 48px;
   left: 633px;
-  top: 889px;
+  top: 920px;
   border-radius: 30px;
   font-family: Karnivore Seven;
   font-style: normal;
@@ -795,4 +794,7 @@ left: 114px;
 top: 3490px;
 
 background: url('../assests/Rectangle\ 19.png')
+}
+a:li{
+   font-family: 'Karnivore Seven';
 }
