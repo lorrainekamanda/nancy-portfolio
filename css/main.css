@@ -53,12 +53,12 @@
   transition: 0.3s;
 }
 
-/* When you mouse over the navigation links, change their color */
+
 .sidepanel a:hover {
-  color: #f1f1f1;
+  color: black;
 }
 
-/* Position and style the close button (top right corner) */
+
 .sidepanel .closebtn {
   position: absolute;
   top: 0;
@@ -67,7 +67,6 @@
   margin-left: 50px;
 }
 
-/* Style the button that is used to open the sidepanel */
 .openbtn {
   font-size: 20px;
   cursor: pointer;
@@ -645,7 +644,7 @@ position: absolute;
 width: 709px;
 height: 672px;
 left: 123px;
-top: 178px;
+top: 200px;
 background: #C4C4C4;
 padding-right: 30PX;
 }
